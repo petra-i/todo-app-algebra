@@ -82,21 +82,21 @@ function App() {
         onChange={(visibility) => setVisibilityType(visibility)}
       >
         <ToggleButton
-          id="all"
+          id={ALL}
           value={ALL}
           variant={getButtonVariant(visibilityType, ALL)}
         >
           {ALL}
         </ToggleButton>
         <ToggleButton
-          id="active"
+          id={ACTIVE}
           value={ACTIVE}
           variant={getButtonVariant(visibilityType, ACTIVE)}
         >
           {ACTIVE}
         </ToggleButton>
         <ToggleButton
-          id="completed"
+          id={COMPLETED}
           value={COMPLETED}
           variant={getButtonVariant(visibilityType, COMPLETED)}
         >
